@@ -1,0 +1,301 @@
+.register-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .register-register {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .register-group3 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 462px;
+    bottom: 0px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .register-group1 {
+    top: 579px;
+    left: 0px;
+    width: 462px;
+    height: 61px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .register-rectangle3 {
+    top: 0px;
+    left: 0px;
+    width: 462px;
+    height: 61px;
+    position: absolute;
+    border-radius: 4px;
+  }
+  .register-text {
+    top: 12px;
+    left: 0px;
+    color: rgba(255, 255, 255, 1);
+    right: 0px;
+    width: 220px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: center;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 38px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .register-text02 {
+    top: -9.094947017729282e-13px;
+    left: 14.091503143310547px;
+    color: rgba(0, 0, 0, 1);
+    width: 415px;
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .register-form {
+    gap: 20px;
+    top: 159.35743713378906px;
+    left: 9.094947017729282e-13px;
+    height: 205.6224822998047px;
+    display: flex;
+    position: absolute;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .register-inputfield {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-frame-inputfieldbase {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-inputwithlabel {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-text04 {
+    color: var(--dl-color-grey-grey700);
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+  }
+  .register-input {
+    gap: 8px;
+    height: var(--dl-size-size-xsmall);
+    display: flex;
+    padding: 10px 14px;
+    overflow: hidden;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(207, 212, 220, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: var(--dl-color-default-white);
+  }
+  .register-content {
+    gap: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .register-text06 {
+    color: var(--dl-color-grey-grey500);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .register-inputfield1 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-frame-inputfieldbase1 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-inputwithlabel1 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-text08 {
+    color: var(--dl-color-grey-grey700);
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+  }
+  .register-input1 {
+    gap: 8px;
+    display: flex;
+    padding: 10px 14px;
+    overflow: hidden;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(207, 212, 220, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: var(--dl-color-default-white);
+  }
+  .register-content1 {
+    gap: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .register-text10 {
+    color: var(--dl-color-grey-grey500);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .register-inputfield2 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-frame-inputfieldbase2 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-inputwithlabel2 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-text12 {
+    color: var(--dl-color-grey-grey700);
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+  }
+  .register-input2 {
+    gap: 8px;
+    display: flex;
+    padding: 10px 14px;
+    overflow: hidden;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(207, 212, 220, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: var(--dl-color-default-white);
+  }
+  .register-content2 {
+    gap: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .register-inputfield3 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-frame-inputfieldbase3 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-inputwithlabel3 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .register-text14 {
+    color: var(--dl-color-grey-grey700);
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+  }
+  .register-input3 {
+    gap: 8px;
+    width: 462px;
+    display: flex;
+    padding: 10px 14px;
+    overflow: hidden;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(207, 212, 220, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: var(--dl-color-default-white);
+  }
+  .register-content3 {
+    gap: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  

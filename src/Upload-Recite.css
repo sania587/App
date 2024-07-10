@@ -1,0 +1,482 @@
+.upload-recite-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .upload-recite-upload-recite {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(240, 241, 243, 1);
+  }
+  .upload-recite-head-bar {
+    top: -53px;
+    left: -4px;
+    width: 1444px;
+    height: 184px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .upload-recite-rectangle4 {
+    top: 52.99653625488281px;
+    left: 3.813232898712158px;
+    width: 1440px;
+    height: 128px;
+    position: absolute;
+  }
+  .upload-recite-ellipse2 {
+    top: 17px;
+    left: 96px;
+    width: 243px;
+    height: 175px;
+    position: absolute;
+  }
+  .upload-recite-ellipse1 {
+    top: 41.760986328125px;
+    left: 0px;
+    width: 318px;
+    height: 137px;
+    position: absolute;
+  }
+  .upload-recite-image10 {
+    left: 26px;
+    width: 258px;
+    bottom: 29px;
+    height: 71px;
+    position: absolute;
+  }
+  .upload-recite-text {
+    top: 51px;
+    left: 552px;
+    color: rgba(255, 255, 255, 1);
+    width: 382px;
+    height: auto;
+    position: absolute;
+    font-size: 42px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-recite-sidebar {
+    gap: 44px;
+    top: 128px;
+    left: 0px;
+    width: 280px;
+    height: 890px;
+    display: flex;
+    padding: 24px 24px 32px;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(240, 241, 243, 1);
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-radius: 0 8px 8px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .upload-recite-frame39 {
+    gap: 32px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .upload-recite-listmenu {
+    gap: 8px;
+    width: 232px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .upload-recite-listmenu1 {
+    gap: 12px;
+    width: 200px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .upload-recite-list-menu {
+    gap: 10px;
+    display: flex;
+    padding: 16px 0;
+    align-self: stretch;
+    align-items: flex-start;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .upload-recite-content {
+    gap: 16px;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .upload-recite-home {
+    width: 24px;
+    height: 24px;
+  }
+  .upload-recite-text02 {
+    color: rgba(93, 102, 121, 1);
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .upload-recite-list-menu1 {
+    gap: 10px;
+    display: flex;
+    padding: 16px 0;
+    align-self: stretch;
+    align-items: flex-start;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .upload-recite-content1 {
+    gap: 16px;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .upload-recite-plus {
+    width: 25px;
+    height: 53px;
+  }
+  .upload-recite-text04 {
+    color: rgba(21, 111, 238, 1);
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .upload-recite-list-menu2 {
+    gap: 10px;
+    display: flex;
+    padding: 16px 0;
+    align-self: stretch;
+    align-items: flex-start;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .upload-recite-content2 {
+    gap: 16px;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .upload-recite-inventory {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .upload-recite-group10 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-recite-frame6 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .upload-recite-text06 {
+    color: rgba(93, 102, 121, 1);
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .upload-recite-list-menu3 {
+    gap: 10px;
+    display: flex;
+    padding: 16px 0;
+    align-self: stretch;
+    align-items: flex-start;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .upload-recite-content3 {
+    gap: 16px;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .upload-recite-suppliers {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .upload-recite-group12 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-recite-frame8 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .upload-recite-text08 {
+    color: var(--dl-color-grey-grey600);
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .upload-recite-list-menu4 {
+    gap: 10px;
+    display: flex;
+    padding: 16px 0;
+    align-self: stretch;
+    align-items: flex-start;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .upload-recite-content4 {
+    gap: 16px;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .upload-recite-unavailable {
+    width: 19px;
+    height: 51px;
+  }
+  .upload-recite-text10 {
+    color: rgba(93, 102, 121, 1);
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .upload-recite-list-menu5 {
+    gap: 10px;
+    display: flex;
+    padding: 16px 0;
+    align-self: stretch;
+    align-items: flex-start;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .upload-recite-frame40 {
+    gap: 12px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .upload-recite-list-menu6 {
+    gap: 10px;
+    width: 232px;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .upload-recite-content5 {
+    gap: 16px;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .upload-recite-log-out {
+    width: 24px;
+    height: 24px;
+  }
+  .upload-recite-text12 {
+    color: var(--dl-color-grey-grey600);
+    height: auto;
+    text-align: left;
+    line-height: 24px;
+  }
+  .upload-recite-modal {
+    top: 194px;
+    left: 594px;
+    width: 499px;
+    height: 744px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .upload-recite-text14 {
+    top: 93px;
+    left: 171px;
+    color: var(--dl-color-grey-grey800);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: 30px;
+  }
+  .upload-recite-button {
+    gap: 8px;
+    top: 614px;
+    left: 192px;
+    width: 116px;
+    display: flex;
+    padding: 10px 16px;
+    position: absolute;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 77, 0, 1);
+  }
+  .upload-recite-text15 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+  }
+  .upload-recite-group55 {
+    top: 186px;
+    left: 164px;
+    width: 172px;
+    height: 131px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-radius: var(--dl-radius-radius-buttonradius);
+    background-color: rgba(173, 181, 189, 1);
+  }
+  .upload-recite-group57 {
+    top: 180px;
+    left: 166px;
+    width: 172px;
+    height: 131px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-recite-rectangle5 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 56px;
+    bottom: 0px;
+    height: 55px;
+    margin: auto;
+    position: absolute;
+    border-radius: 15px;
+  }
+  .upload-recite-group58 {
+    top: 400px;
+    left: 164px;
+    width: 172px;
+    height: 131px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-recite-group56 {
+    top: 0px;
+    left: 0px;
+    width: 172px;
+    height: 131px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-radius: var(--dl-radius-radius-buttonradius);
+    background-color: rgba(173, 181, 189, 1);
+  }
+  .upload-recite-rectangle51 {
+    top: 34px;
+    left: 58px;
+    width: 56px;
+    height: 55px;
+    margin: auto;
+    position: absolute;
+    border-radius: 15px;
+  }
+  .upload-recite-text17 {
+    top: 281px;
+    left: 196px;
+    color: rgba(0, 0, 0, 0.6000000238418579);
+    width: 107px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-recite-text19 {
+    top: 493px;
+    left: 194px;
+    color: rgba(0, 0, 0, 0.6000000238418579);
+    width: 107px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  @media(max-width: 1600px) {
+    .upload-recite-rectangle4 {
+      width: 1600px;
+    }
+    .upload-recite-modal {
+      top: 190px;
+      left: 678px;
+    }
+  }
+  

@@ -1,0 +1,215 @@
+.login-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .login-login {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .login-imag-ereallygreasite2 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 1292px;
+    bottom: 0px;
+    height: 969px;
+    margin: auto;
+    position: absolute;
+    margin-right: 4px;
+  }
+  .login-group3 {
+    top: 349px;
+    left: 524px;
+    width: 420px;
+    height: 479px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .login-group1 {
+    top: 401px;
+    left: 0px;
+    width: 420px;
+    height: 78px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 77, 0, 1);
+  }
+  .login-text {
+    top: 21px;
+    left: 0px;
+    color: rgba(255, 255, 255, 1);
+    right: 0px;
+    width: 219px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 38px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text02 {
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    width: 412px;
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-form {
+    gap: 20px;
+    top: 105px;
+    left: 0px;
+    display: flex;
+    position: absolute;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-inputfield {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-frame-inputfieldbase {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-inputwithlabel {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-text04 {
+    color: var(--dl-color-grey-grey700);
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+  }
+  .login-input {
+    gap: 8px;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    padding: 10px 14px;
+    overflow: hidden;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(207, 212, 220, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: var(--dl-color-default-white);
+  }
+  .login-content {
+    gap: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .login-text06 {
+    color: var(--dl-color-grey-grey500);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  .login-inputfield1 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-frame-inputfieldbase1 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-inputwithlabel1 {
+    gap: 6px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-text08 {
+    color: var(--dl-color-grey-grey700);
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+  }
+  .login-input1 {
+    gap: 8px;
+    width: 420px;
+    display: flex;
+    padding: 10px 14px;
+    overflow: hidden;
+    align-self: stretch;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(207, 212, 220, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: var(--dl-color-default-white);
+  }
+  .login-content1 {
+    gap: 8px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .login-text10 {
+    color: var(--dl-color-grey-grey500);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 24px;
+  }
+  @media(max-width: 1600px) {
+    .login-imag-ereallygreasite2 {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin: auto;
+    }
+  }
+  
