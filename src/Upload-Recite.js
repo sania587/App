@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import './upload-recite.css'
+import './Upload-Recite.css'
 
 const UploadRecite = (props) => {
   return (

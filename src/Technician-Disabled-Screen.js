@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import './technician-disabled-screen.css'
+import './Technician-Disabled-Screen.css'
 
 const TechnicianDisabledScreen = (props) => {
   return (

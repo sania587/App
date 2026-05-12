@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import './main-page.css'
+import './App.css'
 
 const MainPage = (props) => {
   return (

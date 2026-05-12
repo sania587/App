@@ -7,16 +7,16 @@ import {
   Redirect,
 } from 'react-router-dom'
 
-import './style.css'
-import Remove from './views/remove'
-import TechnicianDisabledScreen from './views/technician-disabled-screen'
-import UserInfo from './views/user-info'
-import MainPage from './views/main-page'
-import UploadRecite from './views/upload-recite'
-import History from './views/history'
-import Register from './views/register'
-import Login from './views/login'
-import NotFound from './views/not-found'
+import './index.css'
+import Remove from './remove'
+import TechnicianDisabledScreen from './Technician-Disabled-Screen'
+import UserInfo from './user-info'
+import MainPage from './App'
+import UploadRecite from './Upload-Recite'
+import History from './history'
+import Register from './register'
+import Login from './login'
+import NotFound from './not-found'
 
 const App = () => {
   return (
