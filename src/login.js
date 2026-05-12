@@ -1,64 +1,72 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import { Link, useHistory } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
-
-import './login.css'
+import './index.css'
 
 const Login = (props) => {
+  const history = useHistory()
+  const [formData, setFormData] = useState({ id: '', password: '' })
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    alert(`Logging in with ID: ${formData.id}. (Demo Mode: Redirecting to Dashboard)`)
+    history.push('/') // In a real app, this would go to a real dashboard
+  }
+
   return (
-    <div className="login-container">
+    <div style={{ 
+      minHeight: '100vh', 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'center',
+      background: '#0f172a',
+      padding: '20px'
+    }}>
       <Helmet>
-        <title>exported project</title>
+        <title>Login | Store Management</title>
       </Helmet>
-      <div className="login-login">
-        <img
-          alt="IMAGEreallygreasite22002"
-          src="/external/imagereallygreasite22002-cvlq-1000h.png"
-          className="login-imag-ereallygreasite2"
-        />
-        <div className="login-group3">
-          <div className="login-group1">
-            <span className="login-text">
-              <span>GO</span>
-            </span>
+
+      <div className="glass-panel" style={{ 
+        maxWidth: '450px', 
+        width: '100%', 
+        padding: '40px', 
+        borderRadius: '24px'
+      }}>
+        <Link to="/" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '5px', marginBottom: '30px' }}>
+          ← Back to Home
+        </Link>
+
+        <h2 style={{ fontSize: '1.8rem', fontWeight: 800, marginBottom: '10px' }}>Welcome Back</h2>
+        <p style={{ color: 'var(--text-secondary)', marginBottom: '30px' }}>Please enter your credentials to continue.</p>
+
+        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+          <div>
+            <label>EMPLOYEE ID</label>
+            <input 
+              type="text" 
+              placeholder="Enter your ID" 
+              required 
+              value={formData.id}
+              onChange={(e) => setFormData({...formData, id: e.target.value})}
+            />
           </div>
-          <span className="login-text02">
-            <span>WELCOME</span>
-          </span>
-          <div className="login-form">
-            <div className="login-inputfield">
-              <div className="login-frame-inputfieldbase">
-                <div className="login-inputwithlabel">
-                  <span className="login-text04 Body2Medium">
-                    <span>ID</span>
-                  </span>
-                  <div className="login-input">
-                    <div className="login-content">
-                      <span className="login-text06 Body1Regular">
-                        <span>Enter your ID</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="login-inputfield1">
-              <div className="login-frame-inputfieldbase1">
-                <div className="login-inputwithlabel1">
-                  <span className="login-text08 Body2Medium">
-                    <span>Password</span>
-                  </span>
-                  <div className="login-input1">
-                    <div className="login-content1">
-                      <span className="login-text10 TextmdNormal">
-                        <span>••••••••</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div>
+            <label>PASSWORD</label>
+            <input 
+              type="password" 
+              placeholder="••••••••" 
+              required 
+              value={formData.password}
+              onChange={(e) => setFormData({...formData, password: e.target.value})}
+            />
           </div>
+          <button type="submit" className="btn-primary" style={{ marginTop: '10px' }}>
+            Access Dashboard
+          </button>
+        </form>
+
+        <div style={{ marginTop: '30px', textAlign: 'center', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
+          Don't have an account? <Link to="/register" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none' }}>Register here</Link>
         </div>
       </div>
     </div>
