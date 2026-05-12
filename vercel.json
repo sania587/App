@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "industrial-store-management",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
